@@ -29,7 +29,10 @@ while option != "q":
     if option == "4":
         response = ""
         number = 1
-        for i in Recuerdos:
-            response += str(number)+"- "+i + "\n"
-            number += 1
+        if len(Recuerdos) >= 1:
+            for i in Recuerdos:
+                response += str(number)+"- "+i + "\n"
+                number += 1
+        else:
+            print("Aún no tienes recuerdos T-T")
         print(response)
