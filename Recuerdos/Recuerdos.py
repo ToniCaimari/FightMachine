@@ -6,7 +6,7 @@ recordar = 0
 
 while option != "q":
     option = input(
-        "Qué quieres hacer? \n     1-Crear recuerdo        2-Recordar      3-Olvidar        4-Diario        q-Salir\n")
+        "Qué quieres hacer? \n     1-Crear recuerdo        2-Recordar      3-Olvidar        4-Hacer un diario        q-Salir\n")
     if option == "1":
         recuerdo = input("Crea el recuerdo: \n")
         Recuerdos.append(recuerdo)
