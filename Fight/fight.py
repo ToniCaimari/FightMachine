@@ -1,5 +1,3 @@
-import sys
-
 Fighters = "Chiki, Richi"
 
 Chiki = "1-Puñala', 2-Pistoletaso, 3-¡Ti arranco la cara esa de mono que tiene'!"
